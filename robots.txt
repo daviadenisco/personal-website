@@ -1,0 +1,4 @@
+User-agent: *
+Disallow: test.html
+Disallow: mvp.html
+Disallow: /assets/

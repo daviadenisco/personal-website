@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Davia DeNisco</title>
+  <meta charset="utf-8">
+  <meta name="description" content="Davia DeNisco is a software engineer in New York City.">
+  <link rel="icon" href="http://www.hillscomputer.ca/wp-content/uploads/2014/11/computer.png" sizes="64x64" type="image/png">
+  <meta property="og:title" content="Davia DeNisco - Software Engineer">
+  <link rel="stylesheet" type="text/css" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+  <link rel="stylesheet" type="text/css" href="stylesheet.css">
+  <link rel="stylesheet" type="text/css" href="header.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+  <script src="swap_content.js"></script>
+  <link href='http://fonts.googleapis.com/css?family=Dosis:800' rel='stylesheet' type='text/css'>
+  <link href='http://fonts.googleapis.com/css?family=Lato:400,700,400italic' rel='stylesheet' type='text/css'>
+</head>
+<body>
+  <header class="group">
+    <h1><a id="home" class="page-link" href="index.html">DAVIA DeNISCO</a></h1>
+    <div class="icon-row">
+      <a title="Email" href="mailto:davia@daviadenisco.com?Subject=Let's%20network!">
+        <i class="fa fa-envelope-square fa-lg hvr-grow"></i>
+      </a>
+      <a title="LinkedIn" href="https://www.linkedin.com/in/davia-denisco-2889317/" target="_blank">
+        <i class="fa fa-linkedin-square fa-lg hvr-grow"></i>
+      </a>
+      <a title="GitHub" href="https://github.com/daviadenisco" target="_blank">
+        <i class="fa fa-github fa-lg hvr-grow" style="margin-left: -20px"></i>
+      </a>
+    </div>
+  </header>
+  <section id="main" class="group">
+    <section id="sidebar">
+      <ul class="link-list group">
+        <li id="about" class="page-link">ABOUT</li>
+        <li id="resume" class="page-link">RESUME</li>
+        <li id="projects" class="page-link">PROJECTS</li>
+      </ul>
+      <!-- <ul class="link-list group bonus"> -->
+        <!-- <li id="art" class="page-link">VISUAL ART</li> -->
+        <!-- <li id="music" class="page-link">MUSIC<small><i class="fa fa-external-link" aria-hidden="true"></small></i></li> -->
+      <!-- </ul> -->
+    </section>
+    <section class="content home">
+      <h3>
+        I'm a software engineer based in NYC. In my spare time I like to hike across volcanoes, kiss wolves, rescue cats, and do JavaScript algorithms.
+      </h3>
+    </section>
+
+    <section class="content about hidden">
+      <h3 style="font-size: 21px; line-height: 28px;">
+        I'm a software engineer based in New York City, where I was born and raised. After graduating from Drew University with a double major in Fine Art and History, I worked in event management for The Estée Lauder Companies, and then for The Open Society Foundations. I'm currently looking for a full-time position as a software engineer. In the meantime, I'm working on several freelance projects, and will soon be teaching an intro to HTML, CSS, and JavaScript class.
+      </h3>
+    </section>
+
+    <section class="content resume hidden">
+      <section class="resume-field">
+        <h4>
+          Feel free to <a href="mailto:davia@daviadenisco.com?Subject=I%20think%20you're%20awesome!">
+          shoot me an email</a>, connect with me on <a href="https://www.linkedin.com/in/daviadenisco" target="_blank">LinkedIn</a>, view some of my code on <a href="https://www.github.com/daviadenisco">GitHub</a>, or checkout my projects.
+        </h4>
+      </section>
+      <section class="resume-field">
+        <h3 style="margin-top:22px; font-size: 21px; margin-bottom: 8px;">Skillset</h3>
+        <p><strong>PROGRAMMING:</strong>
+          JavaScript, React, Node, RESTful APIs, ejs, express, PostgreSQL, SQL, MySQL, Bootstrap, Materialize, AJAX, HTML, CSS, Git, GitHub, Ruby
+        </p>
+        <p><strong>DESIGN:</strong>
+          Adobe Photoshop, Adobe Illustrator, Sketch
+        </p>
+        <div class="icon-row">
+          <img class="js" title="JavaScript" src="skill_icons/js.png">
+          <img class="react" title="React" src="skill_icons/React.png">
+          <img class="node" title="Node.js" src="skill_icons/nodejs.png">
+          <img class="rest" title="RESTful Api" src="skill_icons/restful.png">
+          <img class="ejs" title="ejs" src="skill_icons/ejs.png">
+          <img class="express" title="express" src="skill_icons/express.png">
+          <img class="postgres" title="PostgreSQL" src="skill_icons/postgres.svg">
+          <img class="sql" title="SQL" src="skill_icons/SQL.png">
+          <img class="mysql" title="MySQL" src="skill_icons/mysql.png">
+          <img class="bootstrap" title="Bootstrap" src="skill_icons/Bootstrap.png">
+          <img class="materialize" title="Materialize" src="skill_icons/materialize.png">
+          <img class="ajax" title="AJAX" src="skill_icons/AJAX.png">
+          <img class="html" title="HTML" src="skill_icons/html.png">
+          <img class="css" title="CSS" src="skill_icons/css.png">
+          <img class="git" title="git" src="skill_icons/Git.png">
+          <img class="github" title="GitHub" src="skill_icons/github.png">
+          <img class="ruby" title="Ruby" src="skill_icons/ruby.png">
+          <img class="jquery" title="jQuery" src="skill_icons/jquery.gif">
+        </div>
+      </section>
+    </section>
+
+    <section class="content projects hidden">
+      <h2 style="margin-bottom: 32px;">Projects</h2>
+
+      <div class="project-info group">
+        <div class="project-header group">
+          <h3><strong>Galvanize Student Gallery</strong></h3>
+          <small>CAPSTONE PROJECT / FIRST FREELANCE PROJECT</small>
+          <p>React, React-router, Node.js, Express, Knex, PostgreSQL, React-Bootstrap, CSS, Google Analytics</p>
+        </div>
+        <div class="project-links">
+          <a href="https://galvanizestudentgallery.herokuapp.com/" target="_blank">VIEW</a>
+          <a href="https://github.com/daviadenisco/capstonefrontend" target="_blank">GITHUB</a>
+        </div>
+        <small>
+          This app is currently being utilized by Galvanize for their Capstone Showcase events and associated communications and social media posts.
+          The idea came about when I saw the opportunity to enhance the capstone showcase communications and guest experience by creating a portal for users to learn about Galvanize's newest developers, and to preview and browse projects before, during, and after the event.
+        </small>
+      </div>
+
+      <div class="project-info group">
+        <div class="project-header group">
+          <h3><strong>Student Gallery: Galvanize NYC</strong></h3>
+          <small>MY THIRD QUARTER PROJECT AT GALVANIZE</small>
+          <p>React, Node.js, Express, Knex, PostgreSQL</p>
+        </div>
+        <div class="project-links">
+          <a href="https://g72bestwebdevs.herokuapp.com/" target="_blank">VIEW</a>
+          <a href="https://github.com/daviadenisco/Q3-Frontend" target="_blank">GITHUB</a>
+        </div>
+        <small>
+          This app is the first draft of what ultimately became my Capstone Project and first freelance project. The idea came about when I saw the opportunity to enhance the capstone showcase communications and guest experience by creating a portal for users to learn about Galvanize's newest developers, and to preview and browse projects before, during, and after the event.
+        </small>
+      </div>
+
+      <div class="project-info group">
+        <div class="project-header group">
+          <h3><strong>Techtionary</strong></h3>
+          <small>MY FIRST NODE PROJECT</small>
+          <p>Node, PostgreSQL, Express, ejs, Sequelize, Bootstrap</p>
+        </div>
+        <div class="project-links">
+          <a href="https://techtionary.herokuapp.com/" target="_blank">VIEW</a>
+          <a href="https://github.com/daviadenisco/Techtionary" target="_blank">GITHUB</a>
+        </div>
+        <small>
+          Techtionary is a resource for web development beginners and students who need to quickly look up terms and get relevant and easy-to-understand definitions.
+        </small>
+      </div>
+
+      <div class="project-info group">
+        <div class="project-header group">
+          <h3><strong>Snake!</strong></h3>
+          <small>MY TAKE ON THE CLASSIC SNAKE GAME</small>
+          <p>HTML, CSS, JavaScript</p>
+        </div>
+        <div class="project-links">
+          <a href="http://www.daviadenisco.com/snake/" target="_blank">PLAY</a>
+          <a href="https://github.com/daviadenisco/DaviaDeNisco.com/tree/master/snake" target="_blank">GITHUB</a>
+        </div>
+        <small>
+          This is my version of the classic Snake game, created with vanilla JavaScript, HTML, and CSS only. I did not use jQuery or canvas, instead, I used nested divs to create a grid. Enjoy!
+        </small>
+      </div>
+
+      <div class="project-info group">
+        <div class="project-header group">
+          <h3><strong>Static Personal Site, school project</strong></h3>
+          <small>MY FIRST STATIC SITE</small>
+          <p>HTML, CSS, Materialize</p>
+        </div>
+        <div class="project-links">
+          <a href="https://daviadenisco.github.io/unit-31-my-website/" target="_blank">VIEW</a>
+          <a href="https://github.com/daviadenisco/unit-31-my-website">GITHUB</a>
+        </div>
+        <small>
+          This is a simple static site made during my first month at Galvanize with HTML, CSS, and Materialize.
+        </small>
+      </div>
+
+      <div class="project-info group">
+        <div class="project-header group">
+          <h3><strong>Cat Text Adventure Game v2.0</strong></h3>
+          <small>MY SECOND CODING PROJECT</small>
+          <p>Ruby</p>
+        </div>
+        <div class="project-links">
+          <a href="https://repl.it/Ig2L" target="_blank">PLAY</a>
+          <a href="https://github.com/daviadenisco/More-Cats-" target="_blank">GITHUB</a>
+        </div>
+        <small>
+          This is a <i>slightly<i> more complex version of the previous text adventure game.
+        </small>
+      </div>
+
+      <div class="project-info group">
+        <div class="project-header group">
+          <h3><strong>Cat Text Adventure Game</strong></h3>
+          <small>MY FIRST CODING PROJECT</small>
+          <p>Ruby</p>
+        </div>
+        <div class="project-links">
+          <a href="https://repl.it/Ig1y" target="_blank">PLAY</a>
+          <a href="https://github.com/daviadenisco/cat-game" target="_blank">GITHUB</a>
+        </div>
+        <small>
+          This is a <i>very</i> simple text adventure game.
+        </small>
+      </div>
+
+    </section>
+  </section>
+  <footer>
+  </footer>
+</body>
+</html>
